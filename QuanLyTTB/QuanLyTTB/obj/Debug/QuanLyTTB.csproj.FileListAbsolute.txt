@@ -1,0 +1,10 @@
+E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý điều hành trong quân đội\Bài tập lớn\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\bin\Debug\QuanLyTTB.exe.config
+E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý điều hành trong quân đội\Bài tập lớn\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\bin\Debug\QuanLyTTB.exe
+E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý điều hành trong quân đội\Bài tập lớn\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\bin\Debug\QuanLyTTB.pdb
+E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý điều hành trong quân đội\Bài tập lớn\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.csprojAssemblyReference.cache
+E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý điều hành trong quân đội\Bài tập lớn\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.Form1.resources
+E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý điều hành trong quân đội\Bài tập lớn\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.Properties.Resources.resources
+E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý điều hành trong quân đội\Bài tập lớn\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.csproj.GenerateResource.cache
+E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý điều hành trong quân đội\Bài tập lớn\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.csproj.CoreCompileInputs.cache
+E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý điều hành trong quân đội\Bài tập lớn\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.exe
+E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý điều hành trong quân đội\Bài tập lớn\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.pdb
