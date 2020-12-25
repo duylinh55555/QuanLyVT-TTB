@@ -8,3 +8,4 @@ E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý đi
 E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý điều hành trong quân đội\Bài tập lớn\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.csproj.CoreCompileInputs.cache
 E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý điều hành trong quân đội\Bài tập lớn\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.exe
 E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý điều hành trong quân đội\Bài tập lớn\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.pdb
+E:\Tài liệu đọc\HOC KY 5\Hệ thống thông tin hỗ trợ quản lý điều hành trong quân đội\Bài tập lớn\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.DanhMucTrangThietBi_UserControl.resources
