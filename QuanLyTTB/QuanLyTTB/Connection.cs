@@ -71,39 +71,39 @@ namespace QuanLyTTB
                return table;
           }
 
-          public bool Auto()
+          public bool InsertUpdateObject(string path, string core, string pr1, string pr2, string pr3, string pr4, string pr5, string pr6,string pr7,string pr8,string pr9, string pr10)
           {
-               bool check = false;
-               if (TryConnect())
-               {
-                    com = new SqlCommand("AutoCounting", con);
-                    com.CommandType = CommandType.Text;
-                    com.ExecuteNonQuery();
-                    check = true;
-               }
-               CloseConnect();
-               return check;
-          }
-
-          public bool InsertUpdateObject(string path, string core, string id1, string id2, string string1, string date1, string date2, string num)
-          {
+               try 
+               { 
                bool check = false;
                if (TryConnect())
                {
                     com = new SqlCommand(path, con);
                     com.CommandType = CommandType.StoredProcedure;
                     com.Parameters.AddWithValue("@core", core);
-                    com.Parameters.AddWithValue("@ID1", id1);
-                    com.Parameters.AddWithValue("@ID2", id2);
-                    com.Parameters.AddWithValue("@String", string1);
-                    com.Parameters.AddWithValue("@Date1", Convert.ToDateTime(date1));
-                    com.Parameters.AddWithValue("@Date2", Convert.ToDateTime(date2));
-                    com.Parameters.AddWithValue("@Num", num);
+                    com.Parameters.AddWithValue("@pr1", pr1);
+                    com.Parameters.AddWithValue("@pr2", pr2);
+                    com.Parameters.AddWithValue("@pr3", Convert.ToDateTime(pr3));
+                    if(pr4!= "")
+                    com.Parameters.AddWithValue("@pr4", Convert.ToDateTime(pr4));
+                    else com.Parameters.AddWithValue("@pr4", pr4);
+                    com.Parameters.AddWithValue("@pr5", pr5);
+                    com.Parameters.AddWithValue("@pr6", pr6);
+                    com.Parameters.AddWithValue("@pr7", pr7);
+                    com.Parameters.AddWithValue("@pr8", pr8);
+                    com.Parameters.AddWithValue("@pr9", pr9);
+                    com.Parameters.AddWithValue("@pr10", pr10);
                     com.ExecuteNonQuery();
                     check = true;
                }
                CloseConnect();
                return check;
+               }
+               catch(Exception ex)
+               {
+                    MessageBox.Show(ex.ToString(), "ERROR");
+                    return false;
+               }
           }
 
           public bool DeleteObject(string core, string id1, string id2)
