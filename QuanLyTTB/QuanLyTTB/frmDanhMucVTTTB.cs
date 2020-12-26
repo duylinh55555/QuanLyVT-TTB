@@ -51,6 +51,7 @@ namespace QuanLyTTB
                tbLoai.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
                tbNgayNhap.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
                tbNgayXuat.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
+               tbTrangThai.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();
           }
 
           private void btnHuy_Click(object sender, EventArgs e)
@@ -66,7 +67,7 @@ namespace QuanLyTTB
                tbTT.ResetText();
                tbNgayNhap.ResetText();
                tbNgayXuat.ResetText();
-
+               tbTrangThai.ResetText();
           }
 
           private void btnThem_Click(object sender, EventArgs e)
@@ -83,13 +84,20 @@ namespace QuanLyTTB
 
           private void btnSua_Click(object sender, EventArgs e)
           {
-               tbMaTTB.Enabled = false;
-               btnThem.Enabled = false;
-               btnSua.Enabled = false;
-               btnXoa.Enabled = false;
-               btnLuu.Enabled = true;
-               btnHuy.Enabled = true;
-               check = 1;
+               if (tbMaTTB.Text != "")
+               {
+                    tbMaTTB.Enabled = false;
+                    btnThem.Enabled = false;
+                    btnSua.Enabled = false;
+                    btnXoa.Enabled = false;
+                    btnLuu.Enabled = true;
+                    btnHuy.Enabled = true;
+                    check = 1;
+               }
+               else
+               {
+                    MessageBox.Show("Chọn Thiết Bị Bạn Cần Sửa", "Thông Báo");
+               }
           }
 
           private void btnLuu_Click(object sender, EventArgs e)
@@ -98,13 +106,47 @@ namespace QuanLyTTB
                if (tbNgayXuat.Text == "") tbNgayXuat.Text = null;
                if(check == 0)
                {
-                    connector.InsertUpdateObject("AddObject","14","","",tbNgayNhap.Text,tbNgayXuat.Text, "",tbTenTTB.Text,tbLoai.Text,"","","");
+                    connector.InsertUpdateObject("AddObject","14","","",tbNgayNhap.Text,tbNgayXuat.Text, "",tbTenTTB.Text,tbLoai.Text,tbTrangThai.Text,"","","","");
+                    MessageBox.Show("Thêm Thành Công", "Thông Báo");
+                    reset();
+                    ResetValue();
+                    Enable();
+               }             
+               if (check == 1)
+               {
+                    connector.InsertUpdateObject("EditObject", "14", "", "", tbNgayNhap.Text, tbNgayXuat.Text, "", tbTenTTB.Text, tbLoai.Text, tbTrangThai.Text, "", "","", tbMaTTB.Text);
+                    MessageBox.Show("Sửa Thành Công", "Thông Báo");
                     reset();
                     ResetValue();
                     Enable();
                }
 
           }
-         
+
+          private void btnXoa_Click(object sender, EventArgs e)
+          {
+               if (tbMaTTB.Text != "")
+               {
+                    connector.DeleteObject("14",tbMaTTB.Text,"");
+                    MessageBox.Show("Xóa Thành Công", "Thông Báo");
+                    reset();
+                    ResetValue();
+                    Enable();
+
+               }
+               else
+               {
+                    MessageBox.Show("Chọn Thiết Bị Bạn Cần Xóa", "Thông Báo");
+               }
+          }
+
+          private void tbTimKiem_KeyDown(object sender, KeyEventArgs e)
+          {
+                     
+                    table1 = new DataTable();
+                    table1 = connector.FindObject("14", tbTimKiem.Text);
+                    dataGridView1.DataSource = table1;
+               
+          }
      }
 }

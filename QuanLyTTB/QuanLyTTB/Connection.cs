@@ -71,7 +71,7 @@ namespace QuanLyTTB
                return table;
           }
 
-          public bool InsertUpdateObject(string path, string core, string pr1, string pr2, string pr3, string pr4, string pr5, string pr6,string pr7,string pr8,string pr9, string pr10)
+          public bool InsertUpdateObject(string path, string core, string pr1, string pr2, string pr3, string pr4, string pr5, string pr6,string pr7,string pr8,string pr9, string pr10,string pr11,string pr12)
           {
                try 
                { 
@@ -93,6 +93,8 @@ namespace QuanLyTTB
                     com.Parameters.AddWithValue("@pr8", pr8);
                     com.Parameters.AddWithValue("@pr9", pr9);
                     com.Parameters.AddWithValue("@pr10", pr10);
+                    com.Parameters.AddWithValue("@pr11", pr11);
+                    com.Parameters.AddWithValue("@pr12", pr12);
                     com.ExecuteNonQuery();
                     check = true;
                }
@@ -106,7 +108,7 @@ namespace QuanLyTTB
                }
           }
 
-          public bool DeleteObject(string core, string id1, string id2)
+          public bool DeleteObject(string core, string pr1, string pr2)
           {
                bool check = false;
                if (TryConnect())
@@ -114,8 +116,8 @@ namespace QuanLyTTB
                     com = new SqlCommand("DeleteObject", con);
                     com.CommandType = CommandType.StoredProcedure;
                     com.Parameters.AddWithValue("@core", core);
-                    com.Parameters.AddWithValue("@ID1", id1);
-                    com.Parameters.AddWithValue("@ID2", id2);
+                    com.Parameters.AddWithValue("@pr1", pr1);
+                    com.Parameters.AddWithValue("@pr2", pr2);
                     com.ExecuteNonQuery();
                     check = true;
                }
@@ -123,14 +125,14 @@ namespace QuanLyTTB
                return check;
           }
 
-          public DataTable FindObject(string core, string part)
+          public DataTable FindObject(string core, string pr1)
           {
                if (TryConnect())
                {
                     com = new SqlCommand("FindObject", con);
                     com.CommandType = CommandType.StoredProcedure;
                     com.Parameters.AddWithValue("@core", core);
-                    com.Parameters.AddWithValue("@Part", part);
+                    com.Parameters.AddWithValue("@pr1", pr1);
                     da = new SqlDataAdapter(com);
                     table = new DataTable();
                     da.Fill(table);

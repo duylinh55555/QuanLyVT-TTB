@@ -53,6 +53,8 @@
                this.label4 = new System.Windows.Forms.Label();
                this.label3 = new System.Windows.Forms.Label();
                this.label10 = new System.Windows.Forms.Label();
+               this.label11 = new System.Windows.Forms.Label();
+               this.tbTrangThai = new System.Windows.Forms.TextBox();
                ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
                ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
                this.panel9.SuspendLayout();
@@ -99,6 +101,7 @@
                this.btnXoa.TabIndex = 2;
                this.btnXoa.Text = "Xóa";
                this.btnXoa.UseVisualStyleBackColor = true;
+               this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
                // 
                // dataGridView1
                // 
@@ -200,6 +203,7 @@
                this.tbTimKiem.Name = "tbTimKiem";
                this.tbTimKiem.Size = new System.Drawing.Size(261, 32);
                this.tbTimKiem.TabIndex = 6;
+               this.tbTimKiem.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbTimKiem_KeyDown);
                // 
                // tbNgayXuat
                // 
@@ -315,11 +319,30 @@
                this.label10.TabIndex = 47;
                this.label10.Text = "Nhập Ngày Theo Định Dạng: dd/mm/yyyy 12:00:00 AM";
                // 
+               // label11
+               // 
+               this.label11.AutoSize = true;
+               this.label11.Location = new System.Drawing.Point(361, 221);
+               this.label11.Name = "label11";
+               this.label11.Size = new System.Drawing.Size(59, 13);
+               this.label11.TabIndex = 48;
+               this.label11.Text = "Trạng Thái";
+               // 
+               // tbTrangThai
+               // 
+               this.tbTrangThai.Location = new System.Drawing.Point(448, 214);
+               this.tbTrangThai.Multiline = true;
+               this.tbTrangThai.Name = "tbTrangThai";
+               this.tbTrangThai.Size = new System.Drawing.Size(159, 35);
+               this.tbTrangThai.TabIndex = 49;
+               // 
                // frmDanhMucVTTTB
                // 
                this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
                this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
                this.ClientSize = new System.Drawing.Size(1171, 669);
+               this.Controls.Add(this.tbTrangThai);
+               this.Controls.Add(this.label11);
                this.Controls.Add(this.label10);
                this.Controls.Add(this.label9);
                this.Controls.Add(this.dataGridView1);
@@ -377,5 +400,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnHuy;
           private System.Windows.Forms.Label label10;
-     }
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox tbTrangThai;
+    }
 }
