@@ -111,9 +111,9 @@
                this.dataGridView1.Name = "dataGridView1";
                this.dataGridView1.RowHeadersWidth = 51;
                this.dataGridView1.RowTemplate.Height = 24;
-               this.dataGridView1.Size = new System.Drawing.Size(504, 570);
+               this.dataGridView1.Size = new System.Drawing.Size(561, 570);
                this.dataGridView1.TabIndex = 45;
-               this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+               this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
                // 
                // label8
                // 
@@ -160,7 +160,7 @@
                this.panel9.Location = new System.Drawing.Point(0, 0);
                this.panel9.Margin = new System.Windows.Forms.Padding(2);
                this.panel9.Name = "panel9";
-               this.panel9.Size = new System.Drawing.Size(1171, 64);
+               this.panel9.Size = new System.Drawing.Size(1228, 64);
                this.panel9.TabIndex = 30;
                // 
                // btnHuy
@@ -340,7 +340,7 @@
                // 
                this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
                this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-               this.ClientSize = new System.Drawing.Size(1171, 669);
+               this.ClientSize = new System.Drawing.Size(1228, 670);
                this.Controls.Add(this.tbTrangThai);
                this.Controls.Add(this.label11);
                this.Controls.Add(this.label10);

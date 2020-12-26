@@ -336,7 +336,7 @@
                this.button3.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
                this.button3.Size = new System.Drawing.Size(295, 41);
                this.button3.TabIndex = 1;
-               this.button3.Text = "Lịch sử nhập xuất";
+               this.button3.Text = "Lịch sử cập nhật";
                this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
                this.button3.UseVisualStyleBackColor = true;
                // 
@@ -376,7 +376,7 @@
                this.panel.Location = new System.Drawing.Point(0, 0);
                this.panel.Margin = new System.Windows.Forms.Padding(2);
                this.panel.Name = "panel";
-               this.panel.Size = new System.Drawing.Size(1028, 81);
+               this.panel.Size = new System.Drawing.Size(1299, 81);
                this.panel.TabIndex = 1;
                // 
                // labelLogo
@@ -406,14 +406,14 @@
                this.panel2.Location = new System.Drawing.Point(0, 81);
                this.panel2.Margin = new System.Windows.Forms.Padding(2);
                this.panel2.Name = "panel2";
-               this.panel2.Size = new System.Drawing.Size(1028, 759);
+               this.panel2.Size = new System.Drawing.Size(1299, 759);
                this.panel2.TabIndex = 2;
                // 
                // panel9
                // 
                this.panel9.Controls.Add(this.danhMucTrangThietBi_UserControl1);
                this.panel9.Dock = System.Windows.Forms.DockStyle.Right;
-               this.panel9.Location = new System.Drawing.Point(-99, 0);
+               this.panel9.Location = new System.Drawing.Point(172, 0);
                this.panel9.Margin = new System.Windows.Forms.Padding(2);
                this.panel9.Name = "panel9";
                this.panel9.Size = new System.Drawing.Size(1127, 759);
@@ -432,7 +432,7 @@
                // 
                this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
                this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-               this.ClientSize = new System.Drawing.Size(1028, 609);
+               this.ClientSize = new System.Drawing.Size(1299, 749);
                this.Controls.Add(this.panel2);
                this.Controls.Add(this.panel);
                this.Margin = new System.Windows.Forms.Padding(2);

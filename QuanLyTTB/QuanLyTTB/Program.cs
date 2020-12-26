@@ -16,7 +16,7 @@ namespace QuanLyTTB
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmDanhMucVTTTB());
+            Application.Run(new frmLichSuCapNhat());
         }
     }
 }

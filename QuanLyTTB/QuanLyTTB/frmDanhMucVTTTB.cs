@@ -39,20 +39,7 @@ namespace QuanLyTTB
                btnXoa.Enabled = true;
                btnLuu.Enabled = false;
                btnHuy.Enabled = false;
-          }
-          private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-          {
-               string a = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-               table1 = new DataTable();
-               table1 = connector.LoadData("OutPutTable", "10", a);
-               dataGridView2.DataSource = table1;
-               tbMaTTB.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-               tbTenTTB.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-               tbLoai.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
-               tbNgayNhap.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
-               tbNgayXuat.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
-               tbTrangThai.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();
-          }
+          }         
 
           private void btnHuy_Click(object sender, EventArgs e)
           {
@@ -147,6 +134,20 @@ namespace QuanLyTTB
                     table1 = connector.FindObject("14", tbTimKiem.Text);
                     dataGridView1.DataSource = table1;
                
+          }
+
+          private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+          {
+               string a = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+               table1 = new DataTable();
+               table1 = connector.LoadData("OutPutTable", "10", a);
+               dataGridView2.DataSource = table1;
+               tbMaTTB.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+               tbTenTTB.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+               tbLoai.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+               tbNgayNhap.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+               tbNgayXuat.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
+               tbTrangThai.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();
           }
      }
 }

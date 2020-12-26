@@ -20,3 +20,5 @@ C:\Users\PC\source\repos\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.cs
 C:\Users\PC\source\repos\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.exe
 C:\Users\PC\source\repos\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.pdb
 C:\Users\PC\source\repos\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.frmDanhMucVTTTB.resources
+C:\Users\PC\source\repos\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.frmLichSuCapNhat.resources
+C:\Users\PC\source\repos\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.frmThongTinCapNhat.resources
