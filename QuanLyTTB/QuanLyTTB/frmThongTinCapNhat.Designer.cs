@@ -77,6 +77,7 @@
                this.btnThem.TabIndex = 2;
                this.btnThem.Text = "Thêm";
                this.btnThem.UseVisualStyleBackColor = true;
+               this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
                // 
                // tbTimKiem
                // 
@@ -116,6 +117,7 @@
                this.btnHuy.TabIndex = 8;
                this.btnHuy.Text = "Hủy";
                this.btnHuy.UseVisualStyleBackColor = true;
+               this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
                // 
                // panel9
                // 
