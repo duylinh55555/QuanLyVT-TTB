@@ -22,3 +22,16 @@ C:\Users\PC\source\repos\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.pd
 C:\Users\PC\source\repos\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.frmDanhMucVTTTB.resources
 C:\Users\PC\source\repos\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.frmLichSuCapNhat.resources
 C:\Users\PC\source\repos\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.frmThongTinCapNhat.resources
+C:\Users\apple\Documents\GitHub\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\bin\Debug\QuanLyTTB.exe.config
+C:\Users\apple\Documents\GitHub\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\bin\Debug\QuanLyTTB.exe
+C:\Users\apple\Documents\GitHub\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\bin\Debug\QuanLyTTB.pdb
+C:\Users\apple\Documents\GitHub\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.csprojAssemblyReference.cache
+C:\Users\apple\Documents\GitHub\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.DanhMucTrangThietBi_UserControl.resources
+C:\Users\apple\Documents\GitHub\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.Form1.resources
+C:\Users\apple\Documents\GitHub\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.frmDanhMucVTTTB.resources
+C:\Users\apple\Documents\GitHub\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.frmLichSuCapNhat.resources
+C:\Users\apple\Documents\GitHub\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.frmThongTinCapNhat.resources
+C:\Users\apple\Documents\GitHub\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.Properties.Resources.resources
+C:\Users\apple\Documents\GitHub\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.csproj.GenerateResource.cache
+C:\Users\apple\Documents\GitHub\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.exe
+C:\Users\apple\Documents\GitHub\QuanLyVT-TTB\QuanLyTTB\QuanLyTTB\obj\Debug\QuanLyTTB.pdb
